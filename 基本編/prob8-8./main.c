@@ -1,3 +1,5 @@
+// prob8-8.(難易度★★)（約数）
+// 乱数で１から1000の数値を発生させ、その数値の約数を小さい順に全て表示するプログラムを作りなさい。
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
