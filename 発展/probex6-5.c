@@ -44,6 +44,8 @@ int main(void) {
   }
   // 合計点を計算し、データを表示
   showData(data);
+
+  return 0;
 }
 
 void setData(student_data* data, int id, int kokugo, int sansu, int rika, int shakai, int eigo) {

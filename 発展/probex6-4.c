@@ -55,6 +55,8 @@ int main(void) {
   }
   // 教科ごとの平均を表示
   showAvg(data);
+
+  return 0;
 }
 
 void setData(student_data* data, int id, int kokugo, int sansu, int rika, int shakai, int eigo) {

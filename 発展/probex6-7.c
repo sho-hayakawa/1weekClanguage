@@ -83,6 +83,8 @@ int main(void) {
     }
   }
   printf("食費の最も多い月と金額: %d月  %d\n", maxmonth, max);
+
+  return 0;
 }
 
 void setData(kakei* data, int month, int house, int food, int clothes, int education, int medical, int other) {
